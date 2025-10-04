@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    background-color: #d0d4D5;  ;
+}
+
+.main{
+  height: 97vh; 
+  width: 100%;
+  background-color: #d0d4D5; 
+  margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+
+.nav-part-1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav img{
+    height: 80px;
+    width: auto;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-part-1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-part-1 li {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-part-2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-part-2 i {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.left-part {
+    width: 40%;
+    padding:80px 100px;
+}
+
+
+.left-content {
+    width: 76%;
+}
+
+.first-line {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.middle-line {
+    color: rgb(10, 10, 10);
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "inter", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.last-line {
+    color: gray;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-top-left-radius: 0 ;
+    border: none;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.right-part {
+    height: 100%;
+    width: 60%;
+    padding: 100px 30px;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-right: 10px;
+
+}
+
+.right-part::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0  5px 10px  rgba(17, 0, 17, 0.3);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.title {
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    font-weight: 700;
+    font-family: "inter", sans-serif;
+}
+
+.gender{
+    position: absolute;
+    bottom: 20%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.colour {
+    position: absolute;
+    bottom: 15%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.price{
+   position: absolute;
+   bottom: 5%;
+   font-size: 18px;
+   font-weight: 600; 
+}
